@@ -1,0 +1,9 @@
+{
+    "name": "qlik-mashup-angularjs-bootstrap",
+    "type": "mashup",
+    "appdata": {
+        "qDocName": "",
+        "qDocId": ""
+    },
+    "allowPosition": true
+}

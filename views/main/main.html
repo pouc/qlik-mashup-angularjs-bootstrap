@@ -1,0 +1,17 @@
+<div style="width: 100%;" current-selections="app"></div>
+
+<br/>
+
+<div class="container marketing">
+	<div class="row sortable" ng-repeat="sheet in sheets">
+		<h4>{{sheet.title}}</h4>
+		<div class="col-xs-12 col-sm-4 col-lg-4 col-md-4" ng-repeat="item in sheet.items">
+			<div class="panel panel-default" style="height: 100%;">
+				<div style="position: relative;" class="panel-body" style="height: 100%;" >
+					<div style="width: 100%; height: 400px;" class="qvtarget qvplaceholder" qv-placeholder="item.id"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+

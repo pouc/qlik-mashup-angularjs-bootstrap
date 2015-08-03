@@ -1,0 +1,12 @@
+.qv-object-header { display: none; }
+		
+.qv-global-search { position: static; }
+.qv-search-input { height: 50px; }
+
+.qvt-range-selection .bubble {
+	max-height: initial !important;
+}
+
+.sel-toolbar-btn {
+	line-height: 1.1 !important;
+}
