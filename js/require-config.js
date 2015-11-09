@@ -49,7 +49,8 @@ require.config({
 	]
 });
 
-			
+define( "client.services/grid-service", {} );
+
 require([
 	'js/qlik',
 	'extJs/main'
@@ -58,6 +59,8 @@ require([
 		// Lazy bootstraping of angular modules in order to have enough time to load them
 		// all first. This requires the qva-bootstrap="false" attribute on the html tag
 		// of the index.html file. Load the mashup module at the same time.
+		
+		
 		
 		angular.element(document).ready(function() {
 			angular.bootstrap(document, ['qlik-angular', 'qlik-mashup-angular-bootstrap']);
